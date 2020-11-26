@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       android:orientation="vertical"
+    tools:context="com.example.coursedesign.LoginActivity" >
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:src="@drawable/home" />
+       
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView 
+             android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tom"
+            />
+          <TextView 
+             android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="85463"
+            />
+    </LinearLayout>
+    
+  </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:src="@drawable/green" />
+       
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView 
+             android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sam"
+            />
+          <TextView 
+             android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="158423"
+            />
+    </LinearLayout>
+     
+     
+  
+ </LinearLayout>
+</LinearLayout> 

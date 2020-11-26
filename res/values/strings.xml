@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">生活小助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_first">生活小助手</string>
+    <string name="title_activity_login">生活小助手</string>
+    <string name="title_activity_add">生活小助手</string>
+    <string name="title_activity_list_view">生活小助手</string>
+    <string name="title_activity_person">生活小助手</string>
+    <string name="title_activity_app">AppActivity</string>
+
+</resources>

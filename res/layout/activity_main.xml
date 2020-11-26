@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue"
+    tools:context="com.example.coursedesign.MainActivity" >
+
+    <ListView
+        android:id="@+id/main_list"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1.19" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/green" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ib_home_page"
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:src="@drawable/home" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="2dp"
+            android:layout_height="55dp"
+            android:background="@drawable/green" />
+
+        <ImageButton
+            android:id="@+id/ib_add_product"
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:src="@drawable/add" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="2dp"
+            android:layout_height="55dp"
+            android:background="@drawable/green" />
+
+        <ImageButton
+            android:id="@+id/refresh"
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:src="@drawable/refresh" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="2dp"
+            android:layout_height="55dp"
+            android:background="@drawable/green" />
+
+        <ImageButton
+            android:id="@+id/ib_personal_center"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:layout_weight="0.84"
+            android:src="@drawable/person" />
+    </LinearLayout>
+
+   </LinearLayout>

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blue"
+    tools:context="com.example.coursedesign.AppActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开发目的:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="它是帮助你忘记的事情，在每个人忙碌的生活当中，人的记忆是有限的，备忘录就是让你把多个事情都能记起的东西。"
+        android:textSize="15sp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开发人员:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  &&"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"/>
+  
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="系统版本:"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android app v1.0.0"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"/>
+    <Button
+        android:id="@+id/person_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="返回"
+        android:textSize="20sp"
+         android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

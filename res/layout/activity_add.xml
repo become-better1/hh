@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:background="@drawable/blue"
+    tools:context="com.example.coursedesign.AddActivity" >
+   <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:id="@+id/add_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入添加的信息" />
+     <View
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+    <Button 
+        android:id="@+id/add_button"
+         android:layout_gravity="center_horizontal"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        />
+
+</LinearLayout>
